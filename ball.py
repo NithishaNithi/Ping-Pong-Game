@@ -6,7 +6,7 @@ WHITE = (255, 255, 255)
 WIDTH, HEIGHT = 800, 600
 
 # Load bounce sound
-bounce_sound_path = os.path.join("assets", "bounce.wav")
+bounce_sound_path = os.path.join("Assets", "bounce.wav")
 bounce_sound = pygame.mixer.Sound(bounce_sound_path)
 
 class Ball:
@@ -44,7 +44,7 @@ class Ball:
         self.color = (255, 255, 255)
 
         # Load bounce sound
-        bounce_sound_path = os.path.join("assets", "bounce.wav")
+        bounce_sound_path = os.path.join("Assets", "bounce.wav")
         try:
             self.bounce_sound = pygame.mixer.Sound(bounce_sound_path)
         except pygame.error as e:
